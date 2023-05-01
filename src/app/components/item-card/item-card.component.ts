@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./item-card.component.css']
 })
 export class ItemCardComponent {
-  @Input() personagem: any = {
+  personagem: any = {
     name: "Fox Mulder",
     image: "./assets/mulder.jpg",
     actorName: "David Duchovny",
